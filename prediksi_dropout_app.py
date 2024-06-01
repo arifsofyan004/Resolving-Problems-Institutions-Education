@@ -5,7 +5,7 @@ import joblib
 
 preprocessor = joblib.load('preprocessor.pkl')
 model = joblib.load('model.pkl')
-image = '/content/Banner.jpg'
+image = 'Banner.jpg'
 
 def display_sidebar():
     st.sidebar.subheader("Masukkan Data Siswa")
