@@ -41,8 +41,6 @@ https://public.tableau.com/shared/CYH9HKZZD?:display_count=n&:origin=viz_share_l
 
 Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berikut untuk menganalisis data siswa dan memprediksi tingkat drop-out.
 
-## Menjalankan Sistem Machine Learning
-
 ### Langkah-langkah:
 
 1. **Download Dataset**
