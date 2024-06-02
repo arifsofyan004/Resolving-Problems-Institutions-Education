@@ -1,7 +1,11 @@
-# Menyelesaikan-Permasalahan-Human-Resources
+# Menyelesaikan Permasalahan Institusi Pendidikan
 
 ## Business Understanding
-Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sejak 2000, memiliki lebih dari 1000 karyawan di seluruh negeri. Meskipun besar, perusahaan mengalami attrition rate yang tinggi (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Hal ini menunjukkan adanya masalah dalam retensi karyawan dan manajemen sumber daya manusia. Untuk menjaga pertumbuhan dan produktivitas, penting untuk memahami faktor-faktor yang memengaruhi kepuasan dan retensi karyawan.
+Jaya Jaya Institut, sebuah institusi pendidikan yang telah beroperasi sejak tahun 2000, memiliki reputasi yang baik dalam mencetak lulusan berkualitas. Namun, institusi ini dihadapkan pada tantangan besar terkait tingginya tingkat siswa yang tidak menyelesaikan pendidikan atau dropout.
+
+Tingginya tingkat dropout menjadi isu yang signifikan bagi Jaya Jaya Institut karena dapat berdampak negatif pada reputasi dan kualitas pendidikan institusi tersebut. Oleh karena itu, institusi ini memiliki kebutuhan mendesak untuk mengidentifikasi siswa yang berpotensi melakukan dropout sejak dini.
+
+Dengan mendeteksi siswa-siswa potensial yang berisiko dropout, Jaya Jaya Institut berharap dapat memberikan intervensi atau bimbingan khusus yang dapat mencegah siswa untuk meninggalkan pendidikan mereka. Hal ini diharapkan dapat meningkatkan tingkat kelulusan dan memastikan kesuksesan siswa dalam menyelesaikan pendidikan mereka.
 
 ### Permasalahan Bisnis
 - Menurunkan tingkat turnover karyawan (attrition) dalam perusahaan.
@@ -17,7 +21,7 @@ Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sej
 
 ### Persiapan
 
-Sumber data: [....](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
+Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv
 
 Setup environment:
 ```
