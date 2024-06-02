@@ -8,16 +8,16 @@ Tingginya tingkat dropout menjadi isu yang signifikan bagi Jaya Jaya Institut ka
 Dengan mendeteksi siswa-siswa potensial yang berisiko dropout, Jaya Jaya Institut berharap dapat memberikan intervensi atau bimbingan khusus yang dapat mencegah siswa untuk meninggalkan pendidikan mereka. Hal ini diharapkan dapat meningkatkan tingkat kelulusan dan memastikan kesuksesan siswa dalam menyelesaikan pendidikan mereka.
 
 ### Permasalahan Bisnis
-- Menurunkan tingkat turnover karyawan (attrition) dalam perusahaan.
-- Meningkatkan pemahaman terhadap faktor-faktor yang memengaruhi keputusan karyawan untuk meninggalkan perusahaan.
-- Mengidentifikasi pola-pola yang berkaitan dengan attrition untuk pengambilan keputusan yang lebih efektif dalam manajemen sumber daya manusia.
+- Menurunkan tingkat drop-out siswa dalam sistem pendidikan.
+- Meningkatkan pemahaman terhadap faktor-faktor yang memengaruhi keputusan siswa untuk meninggalkan pendidikan.
+- Mengidentifikasi pola-pola yang berkaitan dengan drop-out untuk pengambilan keputusan yang lebih efektif dalam manajemen pendidikan.
 
 ### Cakupan Proyek
-- Analisis data untuk mengidentifikasi faktor-faktor yang berkorelasi dengan tingkat attrition.
-- Visualisasi dan pemodelan data untuk pemahaman yang lebih baik tentang pola-pola attrition.
-- Pengembangan strategi atau rekomendasi berdasarkan hasil analisis untuk mengurangi tingkat attrition.
-- Pembuatan Dashboard di Power BI
-- Melakukan deployment dengan membuat aplikasi prediksi attrition di streamlit
+- Analisis data untuk mengidentifikasi faktor-faktor yang berkorelasi dengan tingkat drop-out siswa.
+- Visualisasi dan pemodelan data untuk pemahaman yang lebih baik tentang pola-pola drop-out.
+- Pengembangan strategi atau rekomendasi berdasarkan hasil analisis untuk mengurangi tingkat drop-out.
+- Pembuatan Dashboard di Tableau
+- Melakukan deployment dengan membuat aplikasi prediksi drop-out di streamlit
 
 ### Persiapan
 
@@ -25,9 +25,10 @@ Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/stude
 
 Setup environment:
 ```
-conda create --name HumanResources python=3.9
-conda activate HumanResources
-pip install pandas matplotlib seaborn numpy scikit-learn xgboost plotly imbalanced-learn joblib
+conda create --name DropoutPrediction python=3.9
+conda activate DropoutPrediction
+pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+
 ```
 
 ## Business Dashboard
@@ -39,27 +40,28 @@ https://public.tableau.com/shared/CYH9HKZZD?:display_count=n&:origin=viz_share_l
 
 ## Menjalankan Sistem Machine Learning
 
-Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapat mengikuti langkah-langkah berikut. Langkah-langkah ini bertujuan untuk membantu departemen HR dalam menggunakan script tersebut untuk menganalisis data karyawan dan memprediksi tingkat attrition.
+Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berikut untuk menganalisis data siswa dan memprediksi tingkat drop-out.
 
 ## Menjalankan Sistem Machine Learning
 
 ### Langkah-langkah:
 
-1. **Download Script dan Dataset**
-   - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
+1. **Download Dataset**
+   - Pastikan Anda telah mengunduh dataset yang diperlukan. Anda dapat mengunduh dari link berikut:
    ```
-   https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+    https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv
    ```
 
 2. **Setup Environment**
    - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
      ```
-     conda create --name HumanResources python=3.9
-     conda activate HumanResources
+     conda create --name DropoutPrediction python=3.9
+     conda activate DropoutPrediction
+
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
      ```
-     pip install pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scipy==1.11.4 plotly==5.15.0 imbalanced-learn==0.10.1 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+     pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3           joblib==1.4.2
      ```
 
 3. **Jalankan Script**
