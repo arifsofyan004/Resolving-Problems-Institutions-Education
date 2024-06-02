@@ -78,7 +78,7 @@ Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapa
 ### Mengakses Aplikasi Prediksi Attrition:
 - Anda dapat mengakses Aplikasi Prediksi Attrition melalui link berikut:
 ```
-https://aplikasi-prediksi-attrition.streamlit.app/
+https://aplikasi-prediksi-dropout.streamlit.app/
 ```
 
 ## Conclusion
@@ -94,5 +94,5 @@ Proyek ini memberikan wawasan yang berharga tentang faktor-faktor yang berkontri
 
 ## Run steamlit app
 ```
-streamlit run prediksi_attrition_app.py
+streamlit run prediksi_dropout_app.py
 ```
