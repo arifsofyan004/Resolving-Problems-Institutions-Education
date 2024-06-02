@@ -45,9 +45,9 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 
 1. **Download Dataset**
    - Pastikan Anda telah mengunduh dataset yang diperlukan. Anda dapat mengunduh dari link berikut:
-   ```
-    https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv
-   ```
+     ```
+     https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv
+     ```
 
 2. **Setup Environment**
    - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
