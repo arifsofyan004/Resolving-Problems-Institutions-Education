@@ -25,7 +25,7 @@ Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/stude
 
 Setup environment:
 ```
-conda create --name DropoutPrediction python=3.9
+conda create --name DropoutPrediction python=3.10
 conda activate DropoutPrediction
 pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
 ```
@@ -52,12 +52,12 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 2. **Setup Environment**
    - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
      ```
-     conda create --name DropoutPrediction python=3.9
+     conda create --name DropoutPrediction python=3.10
      conda activate DropoutPrediction
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
      ```
-     pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3           joblib==1.4.2
+     pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
      ```
 
 3. **Jalankan Script**
@@ -80,15 +80,10 @@ https://aplikasi-prediksi-dropout.streamlit.app/
 ```
 
 ## Conclusion
-Proyek ini memberikan wawasan yang berharga tentang faktor-faktor yang berkontribusi terhadap tingkat attrition di perusahaan. Analisis data menunjukkan bahwa variabel seperti usia, tingkat pendidikan, jenis kelamin, dan kepuasan kerja memiliki korelasi yang signifikan dengan attrition. Dari sini, dapat disimpulkan bahwa perusahaan perlu memperhatikan faktor-faktor ini dalam upaya untuk mengurangi tingkat attrition dan mempertahankan tenaga kerja yang berharga.
+Dari hasil analisis EDA, ditemukan bahwa terdapat korelasi yang signifikan antara beberapa fitur dengan status dropout mahasiswa. Fitur-fitur seperti usia saat pendaftaran, status debitur, gender, dan mode aplikasi memiliki korelasi tinggi dengan tingkat dropout. Analisis menunjukkan bahwa tingkat dropout cenderung meningkat pada kelompok usia 21-30 tahun, mahasiswa yang memiliki utang, mahasiswa laki-laki, dan mereka yang mendaftar dengan mode aplikasi "Over 23 years old". Selain itu, faktor ekonomi dan kinerja akademik juga mempengaruhi tingkat dropout.
 
 ### Rekomendasi Action Items
-- meninjau kembali kebijakan kompensasi untuk memastikan keseimbangan yang adil dan kompetitif
-- evaluasi kepuasan kerja di tingkat entry-level 
-- Meningkatkan program pengembangan karir untuk karyawan yang baru 
-- meningkatkan program keseimbangan kerja-hidup yang fleksibel
-- Pertimbangkan strategi untuk mengelola waktu dan tugas agar meminimalkan lembur yang berlebihan
-- menyediakan lebih banyak kesempatan pengembangan karir untuk karyawan yang berstatus single.
+Berdasarkan temuan ini, institusi dapat mengambil beberapa tindakan untuk mengurangi tingkat dropout. Pertama, mereka dapat memperkenalkan program-program fleksibel atau pembelajaran daring untuk menyesuaikan dengan jadwal kerja mahasiswa, terutama bagi mereka yang berusia 21-30 tahun. Kedua, institusi dapat menyediakan bantuan keuangan tambahan seperti beasiswa atau keringanan biaya kuliah bagi mahasiswa dengan latar belakang ekonomi yang kurang stabil bisa di lihat dari pekerjaan orang tua nya, serta memberikan solusi ekonomi khusus untuk mahasiswa laki-laki yang merupakan debitur. Selain itu, institusi dapat mengembangkan sistem peringatan dini yang terotomatisasi atau melakukan pemantauan progres akademik secara teratur untuk mengidentifikasi mahasiswa yang memiliki nilai yang kurang baik (di bawah 10) yang berisiko dropout Sehingga bisa memberikan dukungan tambahan sesuai kebutuhan. Dengan memprioritaskan tindakan-tindakan ini, diharapkan dapat meningkatkan tingkat retensi dan kesuksesan akademik mahasiswa secara keseluruhan.
 
 ## Run steamlit app
 ```
