@@ -34,7 +34,7 @@ pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 nu
 Business dashboard yang telah dibuat memberikan gambaran lengkap tentang data karyawan perusahaan. Di dalamnya, terdapat informasi  seperti total jumlah karyawan, jumlah karyawan yang mengalami attrition, dan tingkat attrition secara keseluruhan. Selain itu, dashboard ini juga menampilkan jumlah karyawan yang aktif, jumlah karyawan dengan status "Unknown", serta berbagai plot yang menggambarkan hubungan attrition dengan berbagai faktor, seperti grup usia, jabatan, jarak tempuh, tahun bekerja, status pernikahan, lembur, dan jenis kelamin. Dengan demikian, dashboard ini memberikan pandangan menyeluruh yang dapat membantu manajemen dalam membuat keputusan strategis terkait pengelolaan sumber daya manusia perusahaan.
 
 ```
-https://public.tableau.com/shared/CYH9HKZZD?:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/DashboardAnalisisDropoutJayaJayaInstitut/DropoutAnalyticsDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 ```
 
 ## Menjalankan Sistem Machine Learning
