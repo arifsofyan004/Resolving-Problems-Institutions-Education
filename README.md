@@ -46,7 +46,7 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 1. **Download Script**
    - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
      ```
-
+      https://github.com/arifsofyan004/Menyelesaikan-Permasalahan-Institusi-Pendidikan/blob/main/submission_akhir_menyelesaikan_permasalahan_institusi_pendidikan.py
      ```
 
 2. **Setup Environment**
