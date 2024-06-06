@@ -31,7 +31,7 @@ pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 nu
 ```
 
 ## Business Dashboard
-Business dashboard yang telah dibuat memberikan gambaran lengkap tentang data karyawan perusahaan. Di dalamnya, terdapat informasi  seperti total jumlah karyawan, jumlah karyawan yang mengalami attrition, dan tingkat attrition secara keseluruhan. Selain itu, dashboard ini juga menampilkan jumlah karyawan yang aktif, jumlah karyawan dengan status "Unknown", serta berbagai plot yang menggambarkan hubungan attrition dengan berbagai faktor, seperti grup usia, jabatan, jarak tempuh, tahun bekerja, status pernikahan, lembur, dan jenis kelamin. Dengan demikian, dashboard ini memberikan pandangan menyeluruh yang dapat membantu manajemen dalam membuat keputusan strategis terkait pengelolaan sumber daya manusia perusahaan.
+Dashboard ini dirancang untuk memberikan wawasan mendalam mengenai status dropout mahasiswa di Jaya Jaya Institut. Dashboard ini mencakup berbagai metrik dan visualisasi, termasuk total jumlah mahasiswa yang dropout, graduate, dan yang masih terdaftar. Juga ditampilkan jumlah dropout berdasarkan gender, persentase dropout berdasarkan status debitur, serta pekerjaan orang tua dari mahasiswa yang dropout. Selain itu, dashboard ini menyediakan analisis persentase dropout berdasarkan gender dan mode aplikasi, serta kinerja akademik semester pertama dan kedua dari mahasiswa yang dropout dalam mode aplikasi "Over 23 years old". Filter interaktif juga tersedia untuk memfilter data berdasarkan status debitur. Dengan memahami faktor-faktor yang berkontribusi terhadap dropout, Jaya Jaya Institut dapat mengambil langkah-langkah proaktif untuk memberikan bimbingan khusus kepada mahasiswa yang berisiko dropout, dengan tujuan mengurangi angka dropout dan meningkatkan tingkat kelulusan.
 
 ```
 https://public.tableau.com/views/DashboardAnalisisDropoutJayaJayaInstitut/DropoutAnalyticsDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
@@ -66,15 +66,15 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
    - Jalankan script untuk memulai proses training model machine learning dan evaluasi hasilnya.
 
 ### Proses yang Dilakukan dalam Script:
-- **Load Dataset**: Membaca dataset karyawan.
-- **Preprocessing Data**: Melakukan pembersihan data dan preprocessing, termasuk handling missing values, encoding categorical variables, dan scaling.
-- **Oversampling**: Menggunakan SMOTE untuk menangani ketidakseimbangan kelas.
-- **Model Training**: Melatih model Logistic Regression dan XGBoost dengan hyperparameter tuning menggunakan GridSearchCV atau RandomizedSearchCV.
-- **Model Evaluation**: Mengevaluasi model menggunakan metrik seperti confusion matrix, classification report, dan ROC-AUC score.
+- **Load Dataset**: Membaca dataset mahasiswa.
+- **Preprocessing Data**: Melakukan pembersihan data dan preprocessing, encoding categorical variables, scaling dan Menggunakan Yeo-Johnson untuk transformasi data agar distribusi data menjadi lebih mendekati distribusi normal.
+- **Model Training**: Melatih tiga model klasifikasi Regresi Logistik, SVM, dan Gradient Boosting, untuk menentukan algoritma terbaik.
+Gradient Boosting memiliki akurasi tertinggi (0.83) dan metrik evaluasi yang lebih baik dibandingkan dengan Logistic Regression dan Support Vector Machine. Oleh karena itu, berdasarkan hasil ini, Gradient Boosting adalah pilihan terbaik di antara ketiga model yang diuji. Kemudian akan dilakukan tuning parameter lebih lanjut untuk meningkatkan kinerja model Gradient Boosting.
+- **Model Evaluation**: Mengevaluasi model menggunakan metrik seperti confusion matrix dan classification report
 - **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan di masa mendatang.
 
-### Mengakses Aplikasi Prediksi Attrition:
-- Anda dapat mengakses Aplikasi Prediksi Attrition melalui link berikut:
+### Mengakses Aplikasi Prediksi Dropout:
+- Anda dapat mengakses Aplikasi Prediksi Dropout melalui link berikut:
 ```
 https://aplikasi-prediksi-dropout.streamlit.app/
 ```
