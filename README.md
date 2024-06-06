@@ -43,10 +43,10 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 
 ### Langkah-langkah:
 
-1. **Download Dataset**
-   - Pastikan Anda telah mengunduh dataset yang diperlukan. Anda dapat mengunduh dari link berikut:
+1. **Download Script**
+   - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
      ```
-     https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv
+
      ```
 
 2. **Setup Environment**
