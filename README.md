@@ -69,9 +69,9 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 - **Load Dataset**: Membaca dataset mahasiswa.
 - **Preprocessing Data**: Melakukan pembersihan data dan preprocessing, encoding categorical variables, scaling dan Menggunakan Yeo-Johnson untuk transformasi data agar distribusi data menjadi lebih mendekati distribusi normal.
 - **Model Training**: Melatih tiga model klasifikasi Regresi Logistik, SVM, dan Gradient Boosting, untuk menentukan algoritma terbaik.
-Gradient Boosting memiliki akurasi tertinggi (0.83) dan metrik evaluasi yang lebih baik dibandingkan dengan Logistic Regression dan Support Vector Machine. Oleh karena itu, berdasarkan hasil ini, Gradient Boosting adalah pilihan terbaik di antara ketiga model yang diuji. Kemudian akan dilakukan tuning parameter lebih lanjut untuk meningkatkan kinerja model Gradient Boosting.
+Gradient Boosting memiliki akurasi tertinggi (0.83) dan metrik evaluasi yang lebih baik dibandingkan dengan Logistic Regression dan Support Vector Machine. Oleh karena itu, Gradient Boosting adalah pilihan terbaik di antara ketiga model yang diuji dalam dataset ini. Kemudian akan dilakukan tuning parameter lebih lanjut untuk meningkatkan kinerja model Gradient Boosting.
 - **Model Evaluation**: Mengevaluasi model menggunakan metrik seperti confusion matrix dan classification report
-- **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan di masa mendatang.
+- **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan di aplikasi prediksi dropout yang akan di buat di streamlit.
 
 ### Mengakses Aplikasi Prediksi Dropout:
 - Anda dapat mengakses Aplikasi Prediksi Dropout melalui link berikut:
