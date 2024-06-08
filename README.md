@@ -25,7 +25,7 @@ Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/stude
 
 Setup environment:
 ```
-conda create --name DropoutPrediction python=3.10
+conda create --name DropoutPrediction python=3.9
 conda activate DropoutPrediction
 pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
 ```
@@ -52,7 +52,7 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
 2. **Setup Environment**
    - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
      ```
-     conda create --name DropoutPrediction python=3.10
+     conda create --name DropoutPrediction python=3.9
      conda activate DropoutPrediction
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
