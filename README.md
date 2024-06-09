@@ -59,7 +59,7 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
      ```
-     pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+     pip install -r requirements.txt.2
      ```
 
 3. **Jalankan Script**
