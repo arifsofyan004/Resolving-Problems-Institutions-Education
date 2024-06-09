@@ -59,7 +59,7 @@ Untuk menjalankan prototipe sistem machine learning, ikuti langkah-langkah berik
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
      ```
-     pip install -r requirements.txt.2
+     pip install -r requirements.txt
      ```
 
 3. **Jalankan Script**
