@@ -8,9 +8,11 @@ Tingginya tingkat dropout menjadi isu yang signifikan bagi Jaya Jaya Institut ka
 Dengan mendeteksi siswa-siswa potensial yang berisiko dropout, Jaya Jaya Institut berharap dapat memberikan intervensi atau bimbingan khusus yang dapat mencegah siswa untuk meninggalkan pendidikan mereka. Hal ini diharapkan dapat meningkatkan tingkat kelulusan dan memastikan kesuksesan siswa dalam menyelesaikan pendidikan mereka.
 
 ### Permasalahan Bisnis
-- Menurunkan tingkat drop-out siswa dalam sistem pendidikan.
-- Meningkatkan pemahaman terhadap faktor-faktor yang memengaruhi keputusan siswa untuk meninggalkan pendidikan.
-- Mengidentifikasi pola-pola yang berkaitan dengan drop-out untuk pengambilan keputusan yang lebih efektif dalam manajemen pendidikan.
+- **Tingkat Drop-Out yang Tinggi**: Jaya Jaya Institusi mengalami masalah dengan banyaknya siswa yang meninggalkan sekolah sebelum menyelesaikan pendidikan mereka.
+- **Kehilangan Potensi**: Setiap siswa yang drop-out mengakibatkan hilangnya potensi tenaga kerja yang berkualitas dan berdampak negatif pada masa depan siswa tersebut.
+- **Dampak Finansial**: Tingginya angka drop-out mengurangi pendapatan dan dukungan finansial bagi institusi pendidikan.
+- **Pentingnya Pemahaman Penyebab**: Tanpa memahami faktor-faktor penyebab drop-out, sulit bagi institusi untuk mengembangkan solusi efektif.
+- **Efek Jangka Panjang**: Masalah drop-out yang tidak teratasi dapat menurunkan tingkat kelulusan, mengurangi jumlah pendaftar, dan merusak reputasi institusi.
 
 ### Cakupan Proyek
 - Analisis data untuk mengidentifikasi faktor-faktor yang berkorelasi dengan tingkat drop-out siswa.
@@ -27,7 +29,7 @@ Setup environment:
 ```
 conda create --name DropoutPrediction python=3.9
 conda activate DropoutPrediction
-pip install streamlit==1.34.0 pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+pip install -r requirements.txt
 ```
 
 ## Business Dashboard
