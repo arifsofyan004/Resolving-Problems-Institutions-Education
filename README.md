@@ -19,7 +19,8 @@ Dengan mendeteksi siswa-siswa potensial yang berisiko dropout, Jaya Jaya Institu
 - Visualisasi dan pemodelan data untuk pemahaman yang lebih baik tentang pola-pola drop-out.
 - Pengembangan strategi atau rekomendasi berdasarkan hasil analisis untuk mengurangi tingkat drop-out.
 - Pembuatan Dashboard di Tableau
-- Melakukan deployment dengan membuat aplikasi prediksi drop-out di streamlit
+- Pembuatan Model Machine learning
+- Melakukan deployment model ML dengan membuat aplikasi prediksi drop-out di streamlit
 
 ### Persiapan
 
